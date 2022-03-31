@@ -1,0 +1,7 @@
+<section class="users-list">
+  <ul>
+    <li *ngFor="let user of users">
+      <a (click)="goToDetails(user)">{{ user.username }}</a>
+    </li>
+  </ul>
+</section>
